@@ -1,0 +1,48 @@
+Git and GitHub:
+Git: 
+1.It is Version Control Software. 
+2.Git maintains the entire history of Project.
+3.Git has many commands as given below:
+4.sudo apt install git
+
+GitHub:
+1.It is collaboration platform for Developers.
+2.It is a website where we can store source codes public/private.
+
+--Repository:
+It is a container/folder we can create on GitHub to store our codes.
+
+--branch: main and master branch
+
+**How to configure Git and GitHub in your system?
+1.git config --global user.name "Priya9096"
+2.git config --global user.email "priyakhairate0000@gmail.com"
+
+**How to upload a Folder to GitHub Repository (Uploading Folder from Local to Remote):
+1.Creating Repository (and Copy the URL) (Format: gitHub.com/Username/Repo_name)
+2.mkdir Project
+3.cd Project ---> touch Feature1.txt   (Whatever is present in Project Folder I want it in GitHub Repo.)
+4.git init  ----> git remote add origin gitHub.com/Username/Repo_name
+5.git add .  -->(Adding all the changes to Staging) (Staging means Ready to Commit)
+6.git commit -m "Added new Feature"  --->(Ready to push) (Taking snapshot of Version)
+7.git push -u origin master
+
+** git diff:  Gives diff between Local and Remote changes.
+** git clone: Taking a copy of Remote Repo into Local.
+** Tracked Files, Untracked Files and Modified Files:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
